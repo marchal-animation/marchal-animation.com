@@ -1,0 +1,30 @@
+@tailwind base;
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  a {
+    @apply text-blue-600 underline;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: "Yanone";
+  src: url("assets/fonts/YanoneKaffeesatz-VariableFont_wght.ttf");
+  font-weight: 500;
+}
+
+.font-big-big {
+  font-family: Yanone;
+  font-size: 40px;
+}
