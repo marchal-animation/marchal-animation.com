@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: "Animosa";
-  src: url("assets\fonts\Animosa-Bold.otf");
+  src: url("assets/fonts/Animosa-Bold.otf");
   font-weight: 500;
 }
 
@@ -43,7 +43,7 @@
 
 @font-face {
   font-family: "Gotham";
-  src: url("assets\fonts\Gotham Medium.otf");
+  src: url("assets/fonts/Gotham Medium.otf");
   font-weight: 500;
 }
 
