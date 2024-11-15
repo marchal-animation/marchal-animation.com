@@ -1,30 +1,121 @@
 @tailwind base;
 @layer base {
   h1 {
-    @apply text-2xl;
+    @apply font-big-big mb-2;
   }
   h2 {
-    @apply text-xl;
+    @apply text-xl font-animosa;
   }
   h3 {
-    @apply text-lg;
+    @apply text-base mb-6 font-semibold;
   }
   a {
     @apply text-blue-600 underline;
+  }
+  em {
+    @apply not-italic text-rose-800;
   }
 }
 @tailwind components;
 @tailwind utilities;
 
-
-
 @font-face {
   font-family: "Yanone";
   src: url("assets/fonts/YanoneKaffeesatz-VariableFont_wght.ttf");
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .font-big-big {
   font-family: Yanone;
   font-size: 40px;
+}
+
+@font-face {
+  font-family: "Animosa";
+  src: url("assets\fonts\Animosa-Bold.otf");
+  font-weight: 500;
+}
+
+.font-animosa {
+  font-family: Animosa;
+  font-size: 25px;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("assets\fonts\Gotham Medium.otf");
+  font-weight: 500;
+}
+
+.font-gotham {
+  font-family: Gotham;
+  font-size: 40px;
+}
+
+html {
+  height: 100%;
+}
+
+@keyframes pan-anim {
+	100% {
+		background-position: -100% 0;
+	}
+}
+
+@keyframes h-pan {
+  100% {
+		background-position-x: 170px;
+	}
+}
+
+
+.dot-background {
+  background-image: url('/assets/bgpattern.svg');
+  /* Full height */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 35px;
+  animation: pan-anim 250s linear infinite;
+}
+
+.triangle-pattern {
+  background-image: url('/assets/trianglepattern.svg');
+  /* Full height */
+  height: 100%;
+  background-position: top;
+  background-repeat: repeat-x;
+  background-size: 40px;
+}
+
+.halftones-p {
+  background-image: url('/assets/halftones-p.svg');
+  background-position: left;
+  background-repeat: repeat;
+  background-size: 170px; 
+}
+
+.halftones-p:hover {
+  animation: h-pan 10s linear infinite;
+}
+
+.halftones-t {
+  background-image: url('/assets/halftones-t.svg');
+  background-position: left;
+  background-repeat: repeat;
+  background-size: 170px;
+}
+
+.halftones-t:hover {
+  animation: h-pan 10s linear infinite;
+}
+
+.halftones-y {
+  background-image: url('/assets/halftones-y.svg');
+  background-position: left;
+  background-repeat: repeat;
+  background-size: 170px;
+}
+
+.halftones-y:hover {
+  animation: h-pan 10s linear infinite;
 }
