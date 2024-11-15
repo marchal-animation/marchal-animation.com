@@ -4,6 +4,7 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets");
+    eleventyConfig.addPassthroughCopy("CNAME");
 
     eleventyConfig.addNunjucksAsyncFilter('postcss', (cssCode, done) => {
         postcss([tailwindcss(require('./tailwind.config.js')), autoprefixer()])

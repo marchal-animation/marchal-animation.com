@@ -1,7 +1,10 @@
 {
+  "scripts": {
+    "build-ghpages": "npx @11ty/eleventy"
+  },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.15",
     "@11ty/eleventy-img": "^5.0.0",
+    "@tailwindcss/typography": "^0.5.15",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.13",
     "postcss": "^8.4.47",
