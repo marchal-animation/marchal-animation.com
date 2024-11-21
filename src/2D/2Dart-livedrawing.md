@@ -1,9 +1,10 @@
 ---
 layout: nav_2D.html
-data.order: 2
+order: 2
 miniature: /assets/modelvivantjazz.png
+title: life drawing session with a jazz band
 ---
-# life drawing session with a group of jazz
+# life drawing session with a jazz band
 
 With *Milan Ollier* playing the guitar and *Maxime Thomy* playing the saxophone at _Studio Blauhai_.
 

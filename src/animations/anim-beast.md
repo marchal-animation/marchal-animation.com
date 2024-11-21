@@ -1,8 +1,9 @@
 ---
 layout: nav_main.html
-data.order: 1
+order: 1
 miniature: assets/beast-miniature-static.png
 miniature-hover: assets/beast-miniature.gif
+title: Animating for BEAST
 ---
 # Animating for BEAST
 

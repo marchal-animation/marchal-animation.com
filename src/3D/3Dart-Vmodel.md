@@ -1,7 +1,8 @@
 ---
 layout: nav_3D.html
-data.order: 1
+order: 1
 miniature: /assets/static-test.png
+title: Personnal project
 ---
 # Personnal project
 

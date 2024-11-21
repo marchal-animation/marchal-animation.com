@@ -3,15 +3,18 @@ layout: nav_3D.html
 title: 3D
 ---
 
-<div class="grid grid-cols-2 gap-20 max-w-4xl mt-10">
+<div class="grid grid-cols-2 gap-20 max-w-4xl mt-10 pb-7">
 
 {% assign 3DartCollections = collections.3Dart | sort: "data.order" %}
 {% for 3Dart in 3DartCollections %}
 
 
-    <a href="{{ 3Dart.url }}" class="drop-shadow-xl block transition ease-punch hover:-translate-y-1 hover:scale-110 duration-150 size-full">
-    <img src='{{ 3Dart.data.miniature }}'
+    <a href="{{ 3Dart.url }}" class="drop-shadow-xl block transition ease-punch hover:-translate-y-1 hover:scale-110 duration-150 size-full no-underline">
+    <img class="rounded-t-lg object-top" src='{{ 3Dart.data.miniature }}'
     style="width:inherit; height:inherit; object-fit: cover;"/>
+        <div class="bg-white -mb-24 rounded-b-lg">
+        <h3 class="px-4 text-black py-3">{{ 3Dart.data.title }}</h3>
+        </div>
     </a>
 
 {% endfor %}

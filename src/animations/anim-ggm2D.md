@@ -1,8 +1,9 @@
 ---
 layout: nav_main.html
-data.order: 2
+order: 2
 miniature: assets/ggm2d-miniature-static.png
 miniature-hover: assets/ggm2d-miniature.gif
+title: The 2D animation of Go Go Magnet!
 ---
 # The 2D animation of Go Go Magnet!
 
@@ -16,7 +17,7 @@ It is available to download from *Google play store* and Apple's *App store*.
 _Go Go Magnet!_ is a game in which the player has a lot of crew member to collect and equip on their ship. I rigged skinned and animated **over one hundred** characters using *Spine2D* for the game. During that time I was in close collaboration with the 2D artists and made a project-specific workflow documentation for both the artists and new animators on the project to streamline collaboration.
 
 <div class="my-7">
-  <video controls class="mb-7">
+  <video class="mb-7"controls>
     <source src="../../assets/reel_ggm2d.mp4" />
   </video>
 

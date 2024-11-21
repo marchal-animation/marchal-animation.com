@@ -3,15 +3,18 @@ layout: nav_2D.html
 title: 2D
 ---
 
-<div class="grid grid-cols-2 gap-20 max-w-4xl mt-10">
+<div class="grid grid-cols-2 gap-20 max-w-4xl mt-10 pb-7">
 
 {% assign 2DartCollections = collections.2Dart | sort: "data.order" %}
 {% for 2Dart in 2DartCollections %}
 
 
-    <a href="{{ 2Dart.url }}" class="drop-shadow-xl block transition ease-punch hover:-translate-y-1 hover:scale-110 duration-150 size-full">
-    <img src='{{ 2Dart.data.miniature }}'
+    <a href="{{ 2Dart.url }}" class="drop-shadow-xl block transition ease-punch hover:-translate-y-1 hover:scale-110 duration-150 size-full no-underline">
+    <img class="rounded-t-lg object-top" src='{{ 2Dart.data.miniature }}'
     style="width:inherit; height:inherit" class="object-cover"/>
+        <div class="bg-white -mb-24 rounded-b-lg">
+        <h3 class="px-4 text-black py-3">{{ 2Dart.data.title }}</h3>
+        </div>
     </a>
 
 {% endfor %}

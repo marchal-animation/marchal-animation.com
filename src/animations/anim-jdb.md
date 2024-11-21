@@ -1,8 +1,9 @@
 ---
 layout: nav_main.html
-data.order: 6
+order: 5
 miniature: assets/jdb-miniature-static.png
 miniature-hover: assets/jdb-miniature.gif
+title: The animation of Jungle Dunk
 ---
 # The animation of Jungle Dunk
 

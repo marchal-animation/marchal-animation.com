@@ -1,7 +1,8 @@
 ---
 layout: nav_2D.html
-data.order: 1
+order: 1
 miniature: /assets/AI_miniature.png
+title: Making a game under 72 hours
 ---
 
 # Making a game under 72 hours

@@ -1,8 +1,9 @@
 ---
 layout: nav_main.html
-data.order: 4
+order: 4
 miniature: assets/frag-miniature-static.png
 miniature-hover: assets/frag-miniature.gif
+title: Bringing to life characters for Frag
 ---
 # Bringing to life characters for Frag
 

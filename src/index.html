@@ -3,18 +3,20 @@ layout: nav_main.html
 ---
 
 
-<div class="grid grid-cols-2 gap-20 max-w-4xl mt-10 justify-around">
+<div class="grid grid-cols-2 gap-20 max-w-4xl mt-10 justify-around pb-7">
   
 {% assign animCollections = collections.anim | sort: "data.order" %}
 {% for anim in animCollections %}
 
-
-    <a href="{{ anim.url }}" class="drop-shadow-xl block transition ease-punch hover:-translate-y-1 hover:scale-110 duration-150"style="w-auto h-auto">
-    <img src='{{ anim.data.miniature }}'
+    <a href="{{ anim.url }}" class="drop-shadow-xl block transition ease-punch hover:-translate-y-1 hover:scale-110 duration-150 no-underline"style="w-auto h-auto">
+    <img class="rounded-t-lg" src='{{ anim.data.miniature }}'
     onmouseover="this.src='{{ anim.data.miniature-hover }}';" 
     onmouseout="this.src='{{ anim.data.miniature }}';" 
-    style= "width:100%; height:100%; object-fit: cover;" />
-  </a>
+    style= "width:100%; height:100%; object-fit: cover;"/>
+    <div class="bg-white -mb-24 rounded-b-lg">
+    <h3 class="px-4 text-black py-3">{{ anim.data.title }}</h3>
+    </div>
+    </a>
 
 {% endfor %}
 

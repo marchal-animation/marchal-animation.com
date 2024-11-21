@@ -1,7 +1,8 @@
 ---
 layout: nav_3D.html
-data.order: 2
+order: 2
 miniature: /assets/JDB_3Dminiature.png
+title: The character art of Jungle Dunk
 ---
 # The character art of Jungle Dunk
 

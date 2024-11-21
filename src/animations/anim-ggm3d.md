@@ -1,8 +1,9 @@
 ---
 layout: nav_main.html
-data.order: 3
+order: 3
 miniature: assets/ggm3d-miniature-static.png
 miniature-hover: assets/ggm3d-miniature.gif
+title: The 3D animation of Go Go Magnet
 ---
 # The 3D animation of Go Go Magnet
 
