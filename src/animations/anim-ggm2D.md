@@ -18,7 +18,7 @@ _Go Go Magnet!_ is a game in which the player has a lot of crew member to collec
 
 <div class="my-7">
   <video class="mb-7"controls>
-    <source src="../../assets/reel_ggm2d.mp4" />
+    <source src="../../assets/reel_ggm2D.mp4" />
   </video>
 
   Since the appeal of the collection was focused on **quantity** and **individuality**, my goal was to focus on **humor** and **expressivity** in my animations.<br/>
