@@ -1152,6 +1152,9 @@ html {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
 }
+.-mb-24 {
+  margin-bottom: -6rem;
+}
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -1305,6 +1308,14 @@ html {
 .rounded-lg {
   border-radius: 0.5rem;
 }
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
 .border {
   border-width: 1px;
 }
@@ -1323,6 +1334,10 @@ html {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-p,oklch(var(--p)/var(--tw-bg-opacity)));
 }
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1338,15 +1353,26 @@ html {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.object-top {
+  -o-object-position: top;
+     object-position: top;
+}
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 .pb-0 {
   padding-bottom: 0px;
 }
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+.pb-7 {
+  padding-bottom: 1.75rem;
 }
 .pl-5 {
   padding-left: 1.25rem;
