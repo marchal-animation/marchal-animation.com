@@ -5,7 +5,7 @@ title: About
 
 # Nice to meet you!
 
-*I am Lise, a versatile game artist who specialize in animation.*<br/>
+*I am Lise, a versatile game artist who specializes in animation.*<br/>
 I love exploring stylized art styles and giving life to cute and silly characters alike, but, even more importantly, my dream is to help creating characters and universes that have the power to make players immerse themselves in and that they will love. Meaning that my goal is first and foremost to help make unique games that create experiences that players won’t forget!
 
 <a href="mailto:marchal.animation@gmail.com">
