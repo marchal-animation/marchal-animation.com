@@ -1,50 +1,76 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-primary">
+<html lang="en" class="dot-background static">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ '/style.css' | url }}">
-    <title>Document</title>
+    <title>Marchal Animation</title>
 </head>
+
 <body>
-    <header>
-
-
-
-    </header>
 
 <nav>
-<div>
-    <p
-     class="justify-left text-xl pl-8 pt-8 font-big-big"> Lise Marchal </p>
-    <p class="justify-left text-xl whitespace-pre m-2 font-big-big">            Game artist and animator </p>
+<div class="bg-primary">
+    <div class ="max-w-6xl ml-auto mr-auto pl-5 pr-5 bg-primary pb-0 translate-y-4 pt-7 flex">
+        <p class="drop-shadow-[0_3px_0px_rgba(186,14,87,1)] font-big-big text-base-100 self-baseline">LISE MARCHAL</p> 
+        <p class="ml-6 drop-shadow-[0_3px_0px_rgba(186,14,87,1)] font-animosa text-base-100 self-baseline">GAME ARTIST & ANIMATOR</p>
 
-    <div class ="navbar justify-center p-0 items-end translate-y-2">
-    
+        <div class="px-4 pt-2 pb-5 ml-auto bg-base-100 rounded-lg -translate-y-2">
+        <a href="/"class="font-animosa text-black no-underline">Animations</a>  
+        </div>   
+        
 
-    <div class="navbar-center lg:flex">  
-        <a href="/"class="btn btn-lg bg-base-100 text-xl ">Animations</a>  
+        <a href="/3D" class="group no-underline px-4 pt-2 pb-5 ml-2 halftones-p rounded-lg border border-4 border-white
+        transition ease-punch 
+        hover:-translate-y-2 duration-200">
+        <div class="drop-shadow-[0_0px_1px_rgba(186,14,87,1)]">
+            <div class="drop-shadow-[0_0px_1px_rgba(186,14,87,1)]">
+                <div class="font-animosa text-base-100 drop-shadow-[0_3px_0px_rgba(186,14,87,1)]
+                group-hover:animate-floating">3D
+                </div>
+            </div>
+        </div>
+        </a>
+
+        <a href="/2D" class="group no-underline px-4 pt-2 pb-5 ml-2 halftones-t rounded-lg border border-4 border-white
+        transition ease-punch 
+        hover:-translate-y-2 duration-200">
+        <div class="drop-shadow-[0_0px_1px_rgba(10,110,130,1)]">
+            <div class="drop-shadow-[0_0px_1px_rgba(10,110,130,1)]">
+                <div class="font-animosa text-base-100 drop-shadow-[0_3px_0px_rgba(10,110,130,1)]
+                group-hover:animate-floating">2D
+                </div>
+            </div>
+        </div>
+        </a>
+
+        <a href="/About" class="group no-underline px-4 pt-2 pb-5 ml-2 halftones-y rounded-lg border border-4 border-white
+        transition ease-punch 
+        hover:-translate-y-2 duration-200">
+        <div class="drop-shadow-[0_0px_1px_rgba(196,114,0,1)]">
+            <div class="drop-shadow-[0_0px_1px_rgba(196,114,0,1)]">
+                <div class="font-animosa text-base-100 drop-shadow-[0_3px_0px_rgba(196,114,0,1)]
+                group-hover:animate-floating">About
+                </div>
+            </div>
+        </div>
+        </a>
     </div>
-
-    <div class="navbar-center lg:flex">  
-        <a href="/3D"class="btn btn-lg btn-primary text-xl">3D</a>
-    </div>
-
-    <div class="navbar-center lg:flex">  
-        <a href="/2D"class="btn btn-lg btn-primary text-xl">2D</a>
-    </div>
-
-    <div class="navbar-center lg:flex">  
-        <a href="/About"class="btn btn-lg btn-primary text-xl">About</a>
-    </div>
-    </div>
-
-  </div>
+</div>
 </nav>
-
-<main>
-  {{ content }}
-
+<main class="triangle-pattern">
+    <div class=" card bg-base-100 max-w-6xl mx-auto mb-20 drop-shadow-xl">
+        <div class="card-body mt-10 mb-10 mx-auto max-w-5xl text-justify">
+    {{ content }}
+        </div>
+    </div>
 </main>
 </body>
+
+<footer class="my-12">
+</br>
+</footer>      
+<div class="from-zinc-200 bg-gradient-to-b w-full absolute top-0" style="height: 50rem; z-index: -1;"></div>
+</html>
