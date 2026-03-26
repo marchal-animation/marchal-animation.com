@@ -2,9 +2,9 @@
 layout: nav_3D.html
 order: 1
 miniature: /assets/static-test.png
-title: Personnal project
+title: Personal project
 ---
-# Personnal project
+# Personal project
 
 ## Making a stylized character for facial mocap
 
